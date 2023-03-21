@@ -1,0 +1,57 @@
+.main-header {
+    background-color: var(--lighblue-color);
+    position: relative;
+}
+
+.landing-page-header {
+    background-color: var(--lighblue-color);
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 0 20px;
+}
+
+.header-logo {
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: left;
+    padding-inline-start: 0px;
+}
+
+.menu-link {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.115em;
+    color: var(--text-color);
+    text-transform: uppercase;
+}
+
+.menu-link:hover {
+    text-decoration: underline;
+}
+
+.header-auth {
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
+}
+
+body {
+    background-color: white;
+}
+
+.button-cart {
+    transform: scale(var(--ggs, 1))
+}
+
+.button-login {
+    font-weight: 700;
+    color: var(--text-color);
+    border: 1px solid;
+    padding: 14px 30.5px;
+}

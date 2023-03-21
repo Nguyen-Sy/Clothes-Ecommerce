@@ -1,0 +1,21 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Lato", sans-serif !important;
+    font-style: normal;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1200px;
+}
+
+#main {
+    background-color: #f3f3f3;
+}

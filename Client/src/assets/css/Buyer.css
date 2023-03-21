@@ -1,0 +1,147 @@
+#buyer_content {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-color: #f3f3f3;
+}
+
+.buyer_profile-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buyer_container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1200px;
+    background-color: #fff;
+    padding: 10px 30px 10px;
+}
+
+.buyer_profile-content__avatar .buyer_box-avatar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 232px;
+    border-left: 1px solid #ccc;
+}
+
+.buyer_box-avatar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.buyer_box-avatar .buyer_chose-avatar {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #001e54;
+    color: #fff;
+}
+
+.buyer_box-avatar .buyer_chose-avatar:hover {
+    opacity: 0.8;
+}
+.buyer_profile-header {
+    border-bottom: 1px solid #ccc;
+}
+
+.buyer_profile-header h3 {
+    font-weight: 500;
+}
+
+.buyer_profile-content__avatar .buyer_box-avatar {
+    padding: 0 20px 0 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 232px;
+    border-left: 1px solid #ccc;
+}
+
+.buyer_box-avatar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.buyer_box-avatar .buyer_chose-avatar {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #001e54;
+    color: #fff;
+}
+
+.buyer_box-avatar .buyer_chose-avatar:hover {
+    opacity: 0.8;
+}
+.buyer_profile-content__in4 {
+    /* padding-right: 50px; */
+    flex: 1;
+}
+
+.buyer_profile-content__in4 .buyer_box-in4 {
+    display: flex;
+    align-items: center;
+}
+
+.buyer_box-in4 .buyer_in4__title {
+    width: 120px;
+    text-align: left;
+    opacity: 0.7;
+}
+
+.buyer_box-in4 .buyer_in4__content {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    display: flex;
+    border: none;
+    margin-right: 50px;
+}
+
+.buyer_in4__content.inactive {
+    outline: none;
+    cursor: default;
+}
+
+.buyer_box-radio .input-radio {
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+}
+
+.buyer_box-radio p {
+    margin-left: 10px;
+}
+
+.buyer_profile-content__in4 .buyer_profile-handle {
+    padding-left: 140px;
+    margin-bottom: 60px;
+}
+
+.buyer_profile-handle .buyer_box-handle button {
+    border: none;
+    background-color: #001e54;
+    display: inline-block;
+    color: #fff;
+    padding: 11px;
+    font-size: 16px;
+}
+
+.buyer_profile-handle .buyer_box-handle:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.file-uploader {
+    border: none;
+    background-color: #001e54;
+    display: inline-block;
+    color: #fff;
+    padding: 11px;
+    font-size: 16px;
+}
